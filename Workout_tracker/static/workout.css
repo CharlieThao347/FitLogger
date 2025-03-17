@@ -1,0 +1,44 @@
+#bg {
+  background: url("../static/workout.jpg") no-repeat center center fixed;
+  background-size: cover;  /* Ensures it fills the screen */
+  width: 100%;
+  height: 100vh;  /* Ensures full viewport height */
+}
+
+
+#jumbotron-chart {
+  background-color: khaki;
+}
+
+.center-h {
+  text-align: center;
+}
+
+.block {
+  display: block;
+  content: "";
+  margin-top: 6px;
+}
+
+.center-div {
+  text-align: center;
+}
+
+/* workout.css */
+#jumbotron-login {
+  padding: 20px;
+}
+
+/* Adjust padding for smaller screens */
+@media (max-width: 768px) {
+  #jumbotron-login {
+    padding: 15px;
+  }
+}
+
+/* Adjust font size for very small screens */
+@media (max-width: 576px) {
+  #jumbotron-login h1 {
+    font-size: 24px;
+  }
+}
