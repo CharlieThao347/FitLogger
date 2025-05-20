@@ -1,6 +1,9 @@
 # FitLogger
 A Django web application to create workouts, log said workouts, and track exercise progress.
 
+## 🌐 Live Demo  
+👉 **[Try the App Here](https://fitlogger-jhu1.onrender.com)**
+
 ## Description
 FitLogger is a Django-based web application that allows users to log workouts and monitor exercise progress. It includes features such as creating workout routines, logging said routines, and viewing exercise progress.
 
@@ -13,69 +16,7 @@ FitLogger is a Django-based web application that allows users to log workouts an
 - ![jQuery](https://img.shields.io/badge/jQuery-3.5.1-blue) **[jQuery](https://jquery.com/)** - JavaScript library used for DOM manipulation.
 - ![Chartist.js](https://img.shields.io/badge/Chartist-0.11.0-yellow) **[Chartist.js](https://gionkunz.github.io/chartist-js/)** - Library used to render clean and dynamic charts.
 
-## Prerequisites
-You can run this project through Docker (recommended for easy setup) or run it natively on your machine. Before you begin, ensure you have met the following requirements:  
-
-If running through Docker:
-
-**Docker**: You can download Docker from [docker.com](https://www.docker.com/get-started/).
-
-Otherwise, if running natively on your machine:
-
-**Python**: (3.8.10 or higher) - You can download Python from [python.org](https://www.python.org/downloads/).
-
-## Installation
-
-### Running through Docker 
-### 1. Clone the repository
-```bash
-git clone https://github.com/yourusername/workout-tracker.git
-cd workout-tracker
-```
-
-### 2. Build the Docker image by running the following command in your project directory:
-```
-docker build -t workout_tracker .
-```
-
-### 3. Run the Docker container:
-```
-docker run -p 80:80 workout_tracker
-```
-
-### 4. Open a browser and navigate to:
-```
-http://localhost:80
-```
-  
-### Running it natively on your machine
-### 1. Clone the repository
-```bash
-git clone https://github.com/yourusername/workout-tracker.git
-cd workout-tracker
-```
-
-### 2. Install dependencies
-```
-pip install -r requirements.txt
-```
-
-### 3. Set up the database
-```
-python manage.py migrate
-```
-
-### 4. Run the development server
-```
-python manage.py runserver
-```
-
-### 5. Open a browser and navigate to:
-```
-http://127.0.0.1:8000
-```
-
-### Usage
+## Usage
 Login/Sign Up: You can log in or create a new account via the landing page.  
   
 Creating Workouts: After logging in, go to the "Home" page where you can create and log your workout routines. 
@@ -83,7 +24,3 @@ Creating Workouts: After logging in, go to the "Home" page where you can create 
 Viewing Past Workouts: Go to the "Completed Workouts" page to view your previous workouts  
   
 View Progress: Go to the "My Progress" page to track and view progress over time for an exercise.
-
-
-
-
