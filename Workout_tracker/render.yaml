@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: fitlogger
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn workout_tracker.wsgi:application
+    envVars:
+      - key: DJANGO_SETTINGS_MODULE
+        value: workout_tracker.settings
+      - key: SECRET_KEY
+        value: pmvv$7xsyqir0%omd!j&y@$un(1@_fl#yud-kh4)j+ohmy0i@u
